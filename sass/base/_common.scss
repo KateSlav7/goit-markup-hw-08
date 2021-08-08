@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+      margin: 0;
+    }
+    ul
+    {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+  .nobull {
+    list-style-type: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .container {  
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;}

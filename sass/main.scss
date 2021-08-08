@@ -1,0 +1,26 @@
+//Vendors
+@import './vendors/_modern-normalize';
+
+//Utils
+@import './utils/_variable';
+@import './utils/_visually-hidden';
+
+//Base
+@import './base/_common';
+@import './base/_container';
+
+//Layout
+@import './layout/_header';
+@import './layout/_hero';
+@import './layout/_footer';
+@import './layout/_portfolio';
+@import './layout/_client';
+
+//Components
+@import './components/_form.send.button';
+@import './components/_animate';
+@import './components/_modal.window';
+@import './components/_services';
+@import './components/_skills';
+@import './components/_svg';
+@import './components/_company'

@@ -1,0 +1,161 @@
+.company-social-list .company-icon .company-social-icon {
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--accent-color);}
+
+  .company-social-list {
+    display: flex;
+    margin-top: 16px;
+  }
+  .company {
+    background-color: var(--portfolio-button-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0px auto;
+  }
+  .company-list {
+    display: flex;
+  }
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
+  .company-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+  .company-item {
+    background-color: var(--primary-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .company-item + .company-item {
+    margin-left: 30px;
+  }
+  .company-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .section-texxt{
+  text-align: center;
+  color: var(--portfolio-color-title);
+}
+.company-social-list .company-icon .company-social-icon {
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--accent-color);}
+
+  .company-social-list {
+    display: flex;
+    margin-top: 16px;
+  }
+  
+.company-list .company-item .company-social-icon {
+      display: flex;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      color: var(--accent-color);
+      transition: background-color 250ms var(--transition-timing-function);
+    }
+    .company-list {
+      display: flex;
+      margin-top: 16px;
+    }
+    .company-icon1 {
+      fill: var(--social-icon-color);
+      transition: fill 250ms var(--transition-timing-function);
+    }
+    .company-social-icon:hover .company-icon1,
+    .company-social-icon:focus .company-icon1 {
+      fill: var(--primary-white-color);
+      transition: transform 250ms, color 250ms var(--transition-timing-function);
+    }
+
+    .company-icon + .company-icon {
+      margin-left: 10px;
+    }
+    .company-social-icon:hover,
+    .company-social-icon:focus {
+      background-color: var(--accent-color);
+      transition: transform 250ms, color 250ms var(--transition-timing-function);
+    }
+
+.company-social-icon:hover .company-icon1,
+.company-social-icon:focus .company-icon1 {
+
+  transition: transform 250ms, color 250ms var(--transition-timing-function);
+  color: #ffffff;}
+
+.company-icon + .company-icon {
+  margin-left: 10px;
+}
+.company-social-icon:hover,
+.company-social-icon:focus {
+  transition: transform 250ms, color 250ms var(--transition-timing-function);
+  fill: #AFB1B8;}
+.company-social-icon:hover .company-icon1,
+.company-social-icon:focus .company-icon1 {
+
+  transition: transform 250ms, color 250ms var(--transition-timing-function);
+  color: #ffffff;}
+
+.company-icon + .company-icon {
+  margin-left: 10px;
+}
+.company-social-icon:hover,
+.company-social-icon:focus {
+  transition: transform 250ms, color 250ms var(--transition-timing-function);
+  fill: #AFB1B8;}
+
+
+   .company {
+    background-color: var(--portfolio-button-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0px auto;
+  }
+  .company-list {
+    display: flex;
+  }
+  .company-item {
+    background-color: var(--primary-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .company-item + .company-item {
+    margin-left: 30px;
+  }
+  .company-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
