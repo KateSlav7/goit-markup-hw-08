@@ -1,26 +1,37 @@
-//Vendors
-@import './vendors/_modern-normalize';
+// UTILS
+@import "./utils/variebles";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+@import "./utils/visually-hidden";
 
-//Utils
-@import './utils/_variable';
-@import './utils/_visually-hidden';
+// VENDORS
+@import "./vendors/normalize";
 
-//Base
-@import './base/_common';
-@import './base/_container';
+// СБРОС СТИЛЕЙ
+@import "./base/common";
 
-//Layout
-@import './layout/_header';
-@import './layout/_hero';
-@import './layout/_footer';
-@import './layout/_portfolio';
-@import './layout/_client';
+// БАЗОВЫЕ СТИЛИ
+@import "./base/conteiner";
 
-//Components
-@import './components/_form.send.button';
-@import './components/_animate';
-@import './components/_modal.window';
-@import './components/_services';
-@import './components/_skills';
-@import './components/_svg';
-@import './components/_company'
+// СТИЛИ КОМПОНЕНТОВ
+@import "./components/title";
+@import "./components/logo";
+@import "./components/modal-btn";
+@import "./components/social-list";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form";
+
+// ОСНОВНЫЕ СТИЛИ
+@import "./layout/page-header";
+@import "./layout/navigation";
+@import "./layout/header-contacts";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/doing";
+@import "./layout/_team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/footer-form";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-card";

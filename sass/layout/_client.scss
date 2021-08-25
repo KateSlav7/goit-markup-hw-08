@@ -1,91 +1,58 @@
-.client {
-    background-color: var(--primary-white-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    max-width: 1600px;
-    margin: 0px auto;
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  margin-top: -30px;
+  margin-left: -30px;
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
   }
-  .client-list {
-    display: flex;
+}
+
+.clients__item {
+  display: flex;
+
+  width: 100%;
+  height: 92px;
+
+  margin-top: 30px;
+  margin-left: 30px;
+
+  flex-basis: calc(100% / 2 - 30px);
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 3 - 30px);
   }
-  .client-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid var(--social-icon-color);
-   
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 4 - 30px);
   }
-  .client-item + .client-item {
-    margin-left: 30px;
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+    border-color: var(--brand-color);
   }
-  
-  .client-icons :hover {
-  border: 1px solid var(--accent-color);
-  }
-  .client-icons :focus {
-  border: 1px solid var(--accent-color);
-  }
-  .client {
-    background-color: var(--primary-white-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    max-width: 1600px;
-    margin: 0px auto;
-  }
-  .client-list {
-    display: flex;
-  }
-  .client-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid var(--social-icon-color);
-   
-  }
-  .client {
-    background-color: var(--primary-white-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    max-width: 1600px;
-    margin: 0px auto;
-  }
-  .client-list {
-    display: flex;
-  }
-  .client-link {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 170px;
-height: 92px;
-border: 1px solid var(--social-icon-color);
-border-radius: 4px;
-fill: var(--social-icon-color);
-transition: fill 250ms var(--transition-timing-function),
-border 250ms var(--transition-timing-function);
-  }
-  .client-item + .client-item {
-    margin-left: 30px;
-  }
-  
-  .client-link:hover,
-  .client-link:focus {
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
-  }
-  .client-item + .client-item {
-    margin-left: 30px;
-  }
-  
-  .client-icons :hover {
-  border: 1px solid var(--accent-color);
-  }
-  .client-icons :focus {
-  border: 1px solid var(--accent-color);
-  }
+}
+
+.clients__icon {
+  fill: currentColor;
+}
