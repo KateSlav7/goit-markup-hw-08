@@ -128,7 +128,7 @@
   .checkbox {
     display: flex;
     align-items: center;
-  
+    background-image: url(../images/galochka.svg);
     font-weight: normal;
     font-size: 10px;
     line-height: 1.16;
@@ -178,12 +178,12 @@
     border: 2px solid var(--color-main);
     border-radius: 2px;
     margin-right: 7px;
+    background-image: url(../images/galochka.svg);
+    background-size: 13px 13px;
+    cursor: pointer;
 
-
-  
     @media screen and (min-width: 1200px) {
       margin-left: 13px;
-      background-image: url(../img/che-box.svg);
     }
   
     cursor: pointer;
