@@ -133,7 +133,7 @@
       margin-bottom: 32px;
     }
     .mob-contacts__link {
-      font-size: 34px;
+      font-size: 24px;
       font-weight: 500;
       font-size: 30px;
       line-height: 1.16;
@@ -165,8 +165,14 @@
 
      
 
-
-
+      
+      .mob-contacts-list__link--tell{
+        font-weight: 500;
+        font-size: 8vw;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        color: #2196f3;
+    }
 
 
 
