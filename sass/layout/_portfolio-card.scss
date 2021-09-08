@@ -103,8 +103,9 @@
 .card__item {
 
 
-  width: calc((100% - 4 * 15px) / 2)}
-
+   width: 354px;
+    height: 440px;
+    top: 208px;
 
     @media screen and (max-width: 767px) {
     margin-bottom: 30px;
@@ -118,7 +119,9 @@
     margin-top: 30px;
     display: flex;
     margin: 15px;
-    
+    width: 354px;
+    height: 440px;
+    top: 208px;
   }
 
   @media screen and (min-width: 1200px) {
