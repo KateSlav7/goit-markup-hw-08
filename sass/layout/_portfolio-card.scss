@@ -102,13 +102,14 @@
 
 .card__item {
 
+
+  width: calc((100% - 4 * 15px) / 2)}
+
+
     @media screen and (max-width: 767px) {
     margin-bottom: 30px;
-    width: calc((100% - 4 * 15px) / 2);
     &:last-child {
-      margin-bottom: 0;
-      
-
+    
     }
   }
   @media screen and (min-width: 768px)
@@ -117,7 +118,7 @@
     margin-top: 30px;
     display: flex;
     margin: 15px;
-    width: calc((100% - 4 * 15px) / 2);
+    
   }
 
   @media screen and (min-width: 1200px) {
@@ -148,6 +149,12 @@
 .card__link {
   display: flex;
   flex-direction: column;
+
+
+
+  width: 100%;
+
+
 }
 
 .card__thumb {
@@ -176,8 +183,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     transform: translateY(0);
   }
 
- 
-
+  .card__list{
+    width: 100%;}
       
   
 
